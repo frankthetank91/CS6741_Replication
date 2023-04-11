@@ -28,3 +28,5 @@ The paper provides a network architecture mostly based on VAE with Transformer E
        This metric is to measure the euclidean distance between each joint (3D coordinate)
  AVE : Average Variance Error
        This metric is to measure the variance between generated samples 
+
+APE root : 0.8877  APE mean : 0.0934 AVE root : 0.4746 AVE mean : 0.00573
