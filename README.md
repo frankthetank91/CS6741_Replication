@@ -19,3 +19,12 @@ The paper provides a network architecture mostly based on VAE with Transformer E
       
   - The two pathways mentioned above were trained jointly to match the latent space of the pathway 1. with the latent space of pathway 2. (Normal distribution)
   
+
+3. Briefings on the Result
+
+ 1. From the paper, the purpose of this project is to replicate the result in Table 1. 
+ 
+ APE : Average Positional Error
+       This metric is to measure the euclidean distance between each joint (3D coordinate)
+ AVE : Average Variance Error
+       This metric is to measure the variance between generated samples 
